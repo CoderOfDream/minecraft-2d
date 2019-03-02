@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+}
+#game {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+.field, .player, .rubby, .stone, .exit {
+  width: 80px;
+  height: 80px;
+}
+.field {
+  background: url(/img/dirt2.png);
+  float: left;
+}
+.stone {
+  background: url(/img/stonetexture.png);
+  float: left;
+}
+.playerUp {
+  background: url(/img/charcherup.png);
+}
+.playerLeft {
+  background: url(/img/charcherleft.png);
+}
+.playerDown {
+  background: url(/img/charcherdown.png);
+}
+.playerRight {
+  background: url(/img/charcherright.png);
+}
+.iron {
+  background: url(/img/ironOre.png);
+}
+.coal {
+  background: url(/img/coal.png);
+}
+.inventwrapper {
+  width: 280px;
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 500px;
+  border:3px solid #CFDBD5;
+}
+.invent {
+  width: 66px;
+  height: 66px;
+  border:2px solid grey;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f0f0f0;
+}
+p {
+  margin: 0 auto;
+}
+.exit {
+  background: grey;
+  float: left;
+}
+/*# sourceMappingURL=style.css.map */
